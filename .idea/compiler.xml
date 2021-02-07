@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmqtest" />
+        <module name="TokenVerify" />
+        <module name="FileUpDownTest" />
+        <module name="Client" />
+        <module name="RabbitMQClient" />
+        <module name="FileTest" />
+        <module name="SpringBootUseRedis" />
+        <module name="Kafka-Test" />
+        <module name="MyBatisPlusTest" />
+        <module name="TagStatusTest" />
+        <module name="CommonTest" />
+        <module name="EasyExcel" />
+        <module name="ResponsibilityChainTest" />
+        <module name="LocalDateTime" />
+        <module name="schedule" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FileUpDownTest" options="-parameters" />
+      <module name="SpringBootUseRedis" options="-parameters" />
+      <module name="rabbitmqtest" options="-parameters" />
+    </option>
+  </component>
+</project>
